@@ -38,6 +38,9 @@ ZRender|SVG|4.1.1|28-Sep-19|https://ecomfe.github.io/zrender-doc/public/|
   
     https://github.com/rubyzhao/Sin-Wave-with-Basic-Canvas
     https://github.com/rubyzhao/Sine-Wave-with-Basic-SVG 
+    
+   ![Sin wave example](https://github.com/rubyzhao/LineChartPerformanceCompare/blob/master/SinWave.png)
+   
   3. Use Live Server to setup local server
   4. Run pwmetrics with runs=5
   5. Change loop in step 2 from loop=2e2, to 2e3, 2e4, 2e5, 2e6 and 2e7 and repeat step 3 and 4
@@ -64,6 +67,8 @@ Flot.xlsx|4015.20|4015.20|4015.20|4015.20|
 Echarts_Canvas.xlsx|5418.00|5418.00|9604.20|9604.20|
 Echarts_SVG.xlsx|6340.80|6340.80|8361.00|8329.00|
 
+   ![Sin wave example](https://github.com/rubyzhao/LineChartPerformanceCompare/blob/master/SinWave2e3.png)
+
 ## Performance result for loop=2e5
 
 Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
@@ -83,6 +88,8 @@ jqChart.xlsx|12408.60|12408.60|12408.60|12408.60|
 SVG_line.xlsx|13729.20|13729.20|15257.80|15242.00|
 Echarts_Canvas.xlsx|14725.00|14725.00|14756.40|14725.00|
 
+![Sin wave example](https://github.com/rubyzhao/LineChartPerformanceCompare/blob/master/SinWave2e5.png)
+
 ## Performance result for loop=2e6
 
 Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
@@ -96,3 +103,5 @@ Chartjs.xlsx|11894.20|11894.20|11894.20|11894.20|
 D3_SVG.xlsx|12160.00|12160.00|12730.00|12730.00|
 CanvasJS.xlsx|13156.00|13156.00|13156.00|13156.00|
 Highcharts.xlsx|15487.75|18863.50|31234.00|30953.50|
+
+   ![Sin wave example](https://github.com/rubyzhao/LineChartPerformanceCompare/blob/master/SinWave2e6.png)
