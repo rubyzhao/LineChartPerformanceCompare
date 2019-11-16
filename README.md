@@ -2,7 +2,7 @@
 
 ## The selected chart packages
 
-Name|SVG/Canvas|Version|Publish Date|Web
+Package Name|SVG/Canvas|Version|Publish Date|Web Site
 ---|---|---|---|---|
 Canvas lineTo|Canvas|||https://www.w3schools.com/graphics/canvas_coordinates.asp|
 CanvasJS|Canvas|2.3.2|11-Jul-19|https://canvasjs.com/|
