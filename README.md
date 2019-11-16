@@ -1,6 +1,6 @@
-# Line Chart Performance Compare
+# Line Chart Performance Comparison
 
-## The chart packages for comparison
+## The selected chart packages
 
 Name|SVG/Canvas|Version|Publish Date|Web
 ---|---|---|---|---|
@@ -33,7 +33,7 @@ ZRender|SVG|4.1.1|28-Sep-19|https://ecomfe.github.io/zrender-doc/public/|
   8. Node: 12.11.1
   
 ## Workflow  
-  1. Copy all chart libraries to the local
+  1. Copy all chart libraries to the local disk
   2. Draw sin wave as examples below:
   
     https://github.com/rubyzhao/Sin-Wave-with-Basic-Canvas
@@ -65,6 +65,7 @@ Echarts_Canvas.xlsx|5418.00|5418.00|9604.20|9604.20|
 Echarts_SVG.xlsx|6340.80|6340.80|8361.00|8329.00|
 
 ## Performance result for loop=2e5
+
 Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
 ---|---|---|---|---|
 Canvas_lineTo.xlsx|1056.40|1056.40|1056.40|1056.40|
@@ -81,3 +82,17 @@ Dygraphs.xlsx|11505.80|11505.80|11506.80|11506.80|
 jqChart.xlsx|12408.60|12408.60|12408.60|12408.60|
 SVG_line.xlsx|13729.20|13729.20|15257.80|15242.00|
 Echarts_Canvas.xlsx|14725.00|14725.00|14756.40|14725.00|
+
+## Performance result for loop=2e6
+
+Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
+---|---|---|---|---|
+uPlot.xlsx|1666.60|1666.60|2590.40|2380.40|
+Canvas_lineTo.xlsx|3472.40|3472.40|3473.40|3472.40|
+ZRender_SVG.xlsx|8764.00|8764.00|8764.00|8764.00|
+D3_Canvas.xlsx|9220.20|9220.20|9220.20|9220.20|
+SVG_polyline.xlsx|10803.80|10803.80|10910.20|10902.60|
+Chartjs.xlsx|11894.20|11894.20|11894.20|11894.20|
+D3_SVG.xlsx|12160.00|12160.00|12730.00|12730.00|
+CanvasJS.xlsx|13156.00|13156.00|13156.00|13156.00|
+Highcharts.xlsx|15487.75|18863.50|31234.00|30953.50|
