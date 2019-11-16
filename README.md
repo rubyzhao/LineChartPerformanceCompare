@@ -34,8 +34,50 @@ ZRender|SVG|4.1.1|28-Sep-19|https://ecomfe.github.io/zrender-doc/public/|
   
 ## Workflow  
   1. Copy all chart libraries to the local
-  2. Draw 
-
+  2. Draw sin wave as examples below:
   
-  2. Use Live Server to setup local server to migirate 
-Performance comparison for drawing line chart 
+    https://github.com/rubyzhao/Sin-Wave-with-Basic-Canvas
+    https://github.com/rubyzhao/Sine-Wave-with-Basic-SVG 
+  3. Use Live Server to setup local server
+  4. Run pwmetrics with runs=5
+  5. Change loop in step 2 from loop=2e2, to 2e3, 2e4, 2e5, 2e6 and 2e7 and repeat step 3 and 4
+
+## Performance result for loop=2e3
+
+Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
+---|---|---|---|---|
+Canvas_lineTo.xlsx|731.40|731.40|733.00|731.40|
+SVG_polyline.xlsx|744.40|744.40|744.40|744.40|
+SVG_line.xlsx|873.60|873.60|873.60|873.60|
+uPlot.xlsx|1395.00|1395.00|1488.60|1401.80|
+ZRender_SVG.xlsx|1719.80|1719.80|1719.80|1719.80|
+ZRender_Canvas.xlsx|1723.00|1723.00|1723.00|1723.00|
+Dygraphs.xlsx|1736.60|1736.60|1736.60|1736.60|
+Chartjs.xlsx|2190.40|2190.40|2190.40|2190.40|
+D3_SVG.xlsx|2202.40|2202.40|2202.40|2202.40|
+Chartist.xlsx|2406.00|2406.00|2406.00|2406.00|
+D3_Canvas.xlsx|2457.60|2457.60|2457.60|2457.60|
+Highcharts.xlsx|2532.40|2532.40|2532.40|2532.40|
+jqChart.xlsx|2946.80|2946.80|2946.80|2946.80|
+CanvasJS.xlsx|3572.20|3572.20|3672.00|3572.20|
+Flot.xlsx|4015.20|4015.20|4015.20|4015.20|
+Echarts_Canvas.xlsx|5418.00|5418.00|9604.20|9604.20|
+Echarts_SVG.xlsx|6340.80|6340.80|8361.00|8329.00|
+
+## Performance result for loop=2e5
+Source.Name|Average of firstContentfulPaint|Average of firstMeaningfulPaint|Average of interactive|Average of firstCPUIdle
+---|---|---|---|---|
+Canvas_lineTo.xlsx|1056.40|1056.40|1056.40|1056.40|
+uPlot.xlsx|1447.40|1447.40|1729.20|1594.40|
+SVG_polyline.xlsx|1704.60|1704.60|1704.60|1704.60|
+ZRender_SVG.xlsx|2262.40|2262.40|2275.00|2262.40|
+D3_Canvas.xlsx|2896.20|2896.20|2896.20|2896.20|
+D3_SVG.xlsx|3035.80|3035.80|3035.80|3035.80|
+Highcharts.xlsx|4131.00|4137.40|8337.20|8317.00|
+ZRender_Canvas.xlsx|5072.00|5072.00|5072.00|5072.00|
+CanvasJS.xlsx|5155.60|5155.60|5158.00|5155.60|
+Chartjs.xlsx|8460.80|8460.80|8460.80|8460.80|
+Dygraphs.xlsx|11505.80|11505.80|11506.80|11506.80|
+jqChart.xlsx|12408.60|12408.60|12408.60|12408.60|
+SVG_line.xlsx|13729.20|13729.20|15257.80|15242.00|
+Echarts_Canvas.xlsx|14725.00|14725.00|14756.40|14725.00|
