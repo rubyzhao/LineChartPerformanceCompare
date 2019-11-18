@@ -42,7 +42,7 @@ ZRender|SVG|4.1.1|28-Sep-19|https://ecomfe.github.io/zrender-doc/public/|
    ![Sin wave example](https://github.com/rubyzhao/LineChartPerformanceCompare/blob/master/SinWave.png)
    
   3. Use Live Server to setup local server
-  4. Run pwmetrics with runs=5
+  4. Run pwmetrics with runs=5 for average
   5. Change loop in step 2 from loop=2e2, to 2e3, 2e4, 2e5, 2e6 and 2e7 and repeat step 3 and 4
 
 ## Performance result for loop=2e3
