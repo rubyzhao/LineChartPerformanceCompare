@@ -14,7 +14,7 @@ Dygraphs|Canvas|2.1.0|9-Dec-17|https://github.com/danvk/dygraphs|
 Echarts|Canvas|4.4.0|29-Sep-19|https://www.echartsjs.com/en/index.html|
 Echarts|SVG|4.4.0|29-Sep-19|https://www.echartsjs.com/en/index.html|
 Flot|Canvas|4.1.0|6-Nov-19|http://www.flotcharts.org/|
-Highcharts|Canvas|7.2.1|31-Oct-19|https://www.highcharts.com/|
+Highcharts|SVG|7.2.1|31-Oct-19|https://www.highcharts.com/|
 jqChart|Canvas|5.0.0|18-Jun-18|http://www.jqchart.com/|
 SVG line|SVG|||https://www.w3schools.com/graphics/svg_line.asp|
 SVG polyline|SVG|||https://www.w3schools.com/graphics/svg_polyline.asp|
