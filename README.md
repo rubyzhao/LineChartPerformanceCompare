@@ -1,6 +1,6 @@
 # Line Chart Performance Comparison
 
-## The selected chart packages
+## The selected JavaScript chart packages
 
 Package Name|SVG/Canvas|Version|Publish Date|Web Site
 ---|---|---|---|---|
